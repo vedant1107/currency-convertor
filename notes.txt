@@ -1,0 +1,12 @@
+This is a currency convertor webapp
+we are fetching the data from an API
+
+we have used tailwind css for styling
+
+we have written our custom hook "useCurrencyInfo"
+    - It fetches the data from API and return it in json format
+    - whenever we change the currency type in "FromCurr" InputBox it fetches the data again 
+    - we have used "useEffect" hook to fetch the data every time we change currency type and given "currency" as 
+    dependency, currency is currency type
+    - we have used "useState" hook to store the data returned by API in object format
+
